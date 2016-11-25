@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70B5DBB21DE824A40070C110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B5DBB11DE824A40070C110 /* main.m */; };
+		70B5DBB51DE824A40070C110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B5DBB41DE824A40070C110 /* AppDelegate.m */; };
+		70B5DBB81DE824A40070C110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B5DBB71DE824A40070C110 /* ViewController.m */; };
+		70B5DBBB1DE824A40070C110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B5DBB91DE824A40070C110 /* Main.storyboard */; };
+		70B5DBBD1DE824A40070C110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B5DBBC1DE824A40070C110 /* Assets.xcassets */; };
+		70B5DBC01DE824A40070C110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B5DBBE1DE824A40070C110 /* LaunchScreen.storyboard */; };
+		70B5DBCB1DE824A40070C110 /* SoolyMomentCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B5DBCA1DE824A40070C110 /* SoolyMomentCellTests.m */; };
+		70B5DBD61DE824A40070C110 /* SoolyMomentCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B5DBD51DE824A40070C110 /* SoolyMomentCellUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B5DBC71DE824A40070C110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B5DBA51DE824A40070C110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B5DBAC1DE824A40070C110;
+			remoteInfo = SoolyMomentCell;
+		};
+		70B5DBD21DE824A40070C110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B5DBA51DE824A40070C110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B5DBAC1DE824A40070C110;
+			remoteInfo = SoolyMomentCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70B5DBAD1DE824A40070C110 /* SoolyMomentCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyMomentCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B5DBB11DE824A40070C110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70B5DBB31DE824A40070C110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70B5DBB41DE824A40070C110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70B5DBB61DE824A40070C110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70B5DBB71DE824A40070C110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70B5DBBA1DE824A40070C110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70B5DBBC1DE824A40070C110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B5DBBF1DE824A40070C110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70B5DBC11DE824A40070C110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B5DBC61DE824A40070C110 /* SoolyMomentCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyMomentCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B5DBCA1DE824A40070C110 /* SoolyMomentCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoolyMomentCellTests.m; sourceTree = "<group>"; };
+		70B5DBCC1DE824A40070C110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B5DBD11DE824A40070C110 /* SoolyMomentCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyMomentCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B5DBD51DE824A40070C110 /* SoolyMomentCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoolyMomentCellUITests.m; sourceTree = "<group>"; };
+		70B5DBD71DE824A40070C110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B5DBAA1DE824A40070C110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B5DBC31DE824A40070C110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B5DBCE1DE824A40070C110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70B5DBA41DE824A40070C110 = {
+			isa = PBXGroup;
+			children = (
+				70B5DBAF1DE824A40070C110 /* SoolyMomentCell */,
+				70B5DBC91DE824A40070C110 /* SoolyMomentCellTests */,
+				70B5DBD41DE824A40070C110 /* SoolyMomentCellUITests */,
+				70B5DBAE1DE824A40070C110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70B5DBAE1DE824A40070C110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B5DBAD1DE824A40070C110 /* SoolyMomentCell.app */,
+				70B5DBC61DE824A40070C110 /* SoolyMomentCellTests.xctest */,
+				70B5DBD11DE824A40070C110 /* SoolyMomentCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B5DBAF1DE824A40070C110 /* SoolyMomentCell */ = {
+			isa = PBXGroup;
+			children = (
+				70B5DBB31DE824A40070C110 /* AppDelegate.h */,
+				70B5DBB41DE824A40070C110 /* AppDelegate.m */,
+				70B5DBB61DE824A40070C110 /* ViewController.h */,
+				70B5DBB71DE824A40070C110 /* ViewController.m */,
+				70B5DBB91DE824A40070C110 /* Main.storyboard */,
+				70B5DBBC1DE824A40070C110 /* Assets.xcassets */,
+				70B5DBBE1DE824A40070C110 /* LaunchScreen.storyboard */,
+				70B5DBC11DE824A40070C110 /* Info.plist */,
+				70B5DBB01DE824A40070C110 /* Supporting Files */,
+			);
+			path = SoolyMomentCell;
+			sourceTree = "<group>";
+		};
+		70B5DBB01DE824A40070C110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70B5DBB11DE824A40070C110 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70B5DBC91DE824A40070C110 /* SoolyMomentCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				70B5DBCA1DE824A40070C110 /* SoolyMomentCellTests.m */,
+				70B5DBCC1DE824A40070C110 /* Info.plist */,
+			);
+			path = SoolyMomentCellTests;
+			sourceTree = "<group>";
+		};
+		70B5DBD41DE824A40070C110 /* SoolyMomentCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70B5DBD51DE824A40070C110 /* SoolyMomentCellUITests.m */,
+				70B5DBD71DE824A40070C110 /* Info.plist */,
+			);
+			path = SoolyMomentCellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70B5DBAC1DE824A40070C110 /* SoolyMomentCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B5DBDA1DE824A40070C110 /* Build configuration list for PBXNativeTarget "SoolyMomentCell" */;
+			buildPhases = (
+				70B5DBA91DE824A40070C110 /* Sources */,
+				70B5DBAA1DE824A40070C110 /* Frameworks */,
+				70B5DBAB1DE824A40070C110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoolyMomentCell;
+			productName = SoolyMomentCell;
+			productReference = 70B5DBAD1DE824A40070C110 /* SoolyMomentCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70B5DBC51DE824A40070C110 /* SoolyMomentCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B5DBDD1DE824A40070C110 /* Build configuration list for PBXNativeTarget "SoolyMomentCellTests" */;
+			buildPhases = (
+				70B5DBC21DE824A40070C110 /* Sources */,
+				70B5DBC31DE824A40070C110 /* Frameworks */,
+				70B5DBC41DE824A40070C110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B5DBC81DE824A40070C110 /* PBXTargetDependency */,
+			);
+			name = SoolyMomentCellTests;
+			productName = SoolyMomentCellTests;
+			productReference = 70B5DBC61DE824A40070C110 /* SoolyMomentCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70B5DBD01DE824A40070C110 /* SoolyMomentCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B5DBE01DE824A40070C110 /* Build configuration list for PBXNativeTarget "SoolyMomentCellUITests" */;
+			buildPhases = (
+				70B5DBCD1DE824A40070C110 /* Sources */,
+				70B5DBCE1DE824A40070C110 /* Frameworks */,
+				70B5DBCF1DE824A40070C110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B5DBD31DE824A40070C110 /* PBXTargetDependency */,
+			);
+			name = SoolyMomentCellUITests;
+			productName = SoolyMomentCellUITests;
+			productReference = 70B5DBD11DE824A40070C110 /* SoolyMomentCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B5DBA51DE824A40070C110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = SoolyChristina;
+				TargetAttributes = {
+					70B5DBAC1DE824A40070C110 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7523YW79F8;
+						ProvisioningStyle = Automatic;
+					};
+					70B5DBC51DE824A40070C110 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7523YW79F8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70B5DBAC1DE824A40070C110;
+					};
+					70B5DBD01DE824A40070C110 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7523YW79F8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70B5DBAC1DE824A40070C110;
+					};
+				};
+			};
+			buildConfigurationList = 70B5DBA81DE824A40070C110 /* Build configuration list for PBXProject "SoolyMomentCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B5DBA41DE824A40070C110;
+			productRefGroup = 70B5DBAE1DE824A40070C110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B5DBAC1DE824A40070C110 /* SoolyMomentCell */,
+				70B5DBC51DE824A40070C110 /* SoolyMomentCellTests */,
+				70B5DBD01DE824A40070C110 /* SoolyMomentCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B5DBAB1DE824A40070C110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B5DBC01DE824A40070C110 /* LaunchScreen.storyboard in Resources */,
+				70B5DBBD1DE824A40070C110 /* Assets.xcassets in Resources */,
+				70B5DBBB1DE824A40070C110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B5DBC41DE824A40070C110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B5DBCF1DE824A40070C110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B5DBA91DE824A40070C110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B5DBB81DE824A40070C110 /* ViewController.m in Sources */,
+				70B5DBB51DE824A40070C110 /* AppDelegate.m in Sources */,
+				70B5DBB21DE824A40070C110 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B5DBC21DE824A40070C110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B5DBCB1DE824A40070C110 /* SoolyMomentCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B5DBCD1DE824A40070C110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B5DBD61DE824A40070C110 /* SoolyMomentCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B5DBC81DE824A40070C110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B5DBAC1DE824A40070C110 /* SoolyMomentCell */;
+			targetProxy = 70B5DBC71DE824A40070C110 /* PBXContainerItemProxy */;
+		};
+		70B5DBD31DE824A40070C110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B5DBAC1DE824A40070C110 /* SoolyMomentCell */;
+			targetProxy = 70B5DBD21DE824A40070C110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70B5DBB91DE824A40070C110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B5DBBA1DE824A40070C110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70B5DBBE1DE824A40070C110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B5DBBF1DE824A40070C110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70B5DBD81DE824A40070C110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B5DBD91DE824A40070C110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B5DBDB1DE824A40070C110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyMomentCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyMomentCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70B5DBDC1DE824A40070C110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyMomentCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyMomentCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70B5DBDE1DE824A40070C110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyMomentCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyMomentCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoolyMomentCell.app/SoolyMomentCell";
+			};
+			name = Debug;
+		};
+		70B5DBDF1DE824A40070C110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyMomentCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyMomentCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoolyMomentCell.app/SoolyMomentCell";
+			};
+			name = Release;
+		};
+		70B5DBE11DE824A40070C110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyMomentCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyMomentCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoolyMomentCell;
+			};
+			name = Debug;
+		};
+		70B5DBE21DE824A40070C110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyMomentCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyMomentCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoolyMomentCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B5DBA81DE824A40070C110 /* Build configuration list for PBXProject "SoolyMomentCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B5DBD81DE824A40070C110 /* Debug */,
+				70B5DBD91DE824A40070C110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B5DBDA1DE824A40070C110 /* Build configuration list for PBXNativeTarget "SoolyMomentCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B5DBDB1DE824A40070C110 /* Debug */,
+				70B5DBDC1DE824A40070C110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70B5DBDD1DE824A40070C110 /* Build configuration list for PBXNativeTarget "SoolyMomentCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B5DBDE1DE824A40070C110 /* Debug */,
+				70B5DBDF1DE824A40070C110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70B5DBE01DE824A40070C110 /* Build configuration list for PBXNativeTarget "SoolyMomentCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B5DBE11DE824A40070C110 /* Debug */,
+				70B5DBE21DE824A40070C110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70B5DBA51DE824A40070C110 /* Project object */;
+}
