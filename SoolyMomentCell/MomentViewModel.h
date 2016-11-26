@@ -17,7 +17,7 @@
 @property (nonatomic ,strong) Moments *moment;
 
 /**
- *  Code圈主体Frame
+ *  主体Frame
  */
 @property (nonatomic ,assign) CGRect momentsBodyFrame;
 
@@ -33,7 +33,7 @@
 @property (nonatomic ,assign) CGRect bodyPhotoFrame;
 
 /**
- *  Code圈工具条Frame
+ *  工具条Frame
  */
 @property (nonatomic, assign) CGRect momentsToolBarFrame;
 

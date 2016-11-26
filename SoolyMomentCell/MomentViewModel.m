@@ -13,9 +13,9 @@
 
 - (void)setMoment:(Moments *)moment{
     _moment = moment;
-    //计算Code圈主体Frame
+    //计算主体Frame
     [self setMomentsBodyFrames];
-    //计算Code圈工具条Frame
+    //计算工具条Frame
     [self setMomentsToolBarFrames];
     //计算CellHeight
     [self setCellHeight];
